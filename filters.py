@@ -16,7 +16,7 @@ def load_data(filepath: str = "data/Population_by_country.xlsx") -> pd.DataFrame
         "net_change", "density_km2", "land_area_km2",
         "migrants_net", "fertility_rate", "median_age",
         "urban_pop_pct", "world_share"
-    ]
+
 
     # Convert object columns to numeric
     for col in ["fertility_rate", "median_age", "urban_pop_pct"]:
