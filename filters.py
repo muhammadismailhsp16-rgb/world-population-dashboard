@@ -8,7 +8,7 @@ import numpy as np
 
 def load_data(filepath: str = "data/Population_by_country.xlsx") -> pd.DataFrame:
     """Load and clean the population dataset."""
-    df = pd.read_excel(filepath)
+    df = pd.read_excel(filepath)data/Population_by_country.xlsx
 
     # Rename columns for cleanliness
     df.columns = [
